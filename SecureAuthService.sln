@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11408.102 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C0BA21F6-9E8B-49CD-B21E-5E7006CEB0B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureAuthService.Api", "src\SecureAuthService.Api\SecureAuthService.Api.csproj", "{9E64AF3A-2DE1-4DC1-9A3C-1B60BD76FC12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureAuthService.Application", "src\SecureAuthService.Application\SecureAuthService.Application.csproj", "{3579E73D-036C-4006-A4BF-4196E823A49D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureAuthService.Domain", "src\SecureAuthService.Domain\SecureAuthService.Domain.csproj", "{E5672F02-4EED-4FB3-A699-387C33275B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureAuthService.Infrastructure", "src\SecureAuthService.Infrastructure\SecureAuthService.Infrastructure.csproj", "{A31909AE-076C-451B-8AD1-253E4AD907A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{22E4968E-AC9A-4E3F-80DF-F424F4DCCF29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureAuthService.Tests", "tests\SecureAuthService.Tests\SecureAuthService.Tests.csproj", "{5C9DF658-ED87-4572-9760-3AC9EBF963DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{0ED07C18-E6FC-489D-A893-476D280855E8}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E64AF3A-2DE1-4DC1-9A3C-1B60BD76FC12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E64AF3A-2DE1-4DC1-9A3C-1B60BD76FC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E64AF3A-2DE1-4DC1-9A3C-1B60BD76FC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E64AF3A-2DE1-4DC1-9A3C-1B60BD76FC12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3579E73D-036C-4006-A4BF-4196E823A49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3579E73D-036C-4006-A4BF-4196E823A49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3579E73D-036C-4006-A4BF-4196E823A49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3579E73D-036C-4006-A4BF-4196E823A49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5672F02-4EED-4FB3-A699-387C33275B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5672F02-4EED-4FB3-A699-387C33275B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5672F02-4EED-4FB3-A699-387C33275B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5672F02-4EED-4FB3-A699-387C33275B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31909AE-076C-451B-8AD1-253E4AD907A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31909AE-076C-451B-8AD1-253E4AD907A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31909AE-076C-451B-8AD1-253E4AD907A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31909AE-076C-451B-8AD1-253E4AD907A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9DF658-ED87-4572-9760-3AC9EBF963DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9DF658-ED87-4572-9760-3AC9EBF963DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9DF658-ED87-4572-9760-3AC9EBF963DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9DF658-ED87-4572-9760-3AC9EBF963DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E64AF3A-2DE1-4DC1-9A3C-1B60BD76FC12} = {C0BA21F6-9E8B-49CD-B21E-5E7006CEB0B8}
+		{3579E73D-036C-4006-A4BF-4196E823A49D} = {C0BA21F6-9E8B-49CD-B21E-5E7006CEB0B8}
+		{E5672F02-4EED-4FB3-A699-387C33275B37} = {C0BA21F6-9E8B-49CD-B21E-5E7006CEB0B8}
+		{A31909AE-076C-451B-8AD1-253E4AD907A8} = {C0BA21F6-9E8B-49CD-B21E-5E7006CEB0B8}
+		{5C9DF658-ED87-4572-9760-3AC9EBF963DD} = {22E4968E-AC9A-4E3F-80DF-F424F4DCCF29}
+	EndGlobalSection
+EndGlobal
